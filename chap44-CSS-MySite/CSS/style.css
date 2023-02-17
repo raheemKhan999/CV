@@ -1,0 +1,64 @@
+
+body {
+  margin: 0;
+  text-align: center; #will centre everything inside until witdh is not set
+  /* font-family: verdana, sans-serif; if verdanan is not install then
+  sanns-cerif
+  will be applied
+  #some time font not reflict from one browser to another for this we use web
+  safe fonts setting
+  if we want to use a font that is chances to be missed on OS to OS then
+  we use fallbacks
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif; four option of
+  font faimlly
+  /*to ensure everybody will have the same look as we having in our own
+  browser then we use
+  google fonts and added the links to the main index.html head section
+  and copy css section here for each text inside our body and this is call
+  font embidding*/
+  font-family: 'Merriweather', serif;
+
+
+}
+h1 {
+  font-family: 'Sacramento', cursive;
+  #margin-top: 0;
+  #width:30px;
+  #margin: 0 auto ; # this wil auto center the element dispite of its width
+
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+.top-container {
+  background-color: #E4f9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  background-color: red;
+  #height: 200px;
+  #width: 200px;
+}
+.bottom-container {
+  background-color: blue;
+  #height: 200px;
+  #width: 200px;
+}
+.pro {
+  text-decoration: red wavy underline;
+}
+.bottom-cloud {
+  position: absolute;
+  left:400px;
+  bottom: 300px;
+}
+.top-cloud {
+  position: absolute;
+  right:500px;
+  top:50px;
+}
+}

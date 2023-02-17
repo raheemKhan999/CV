@@ -1,0 +1,47 @@
+/*
+display can be block,inline,inline-block and none block is defult html flow inline is based on size of element
+and inline block complete block is inline
+position can be static,relative,absolute and fixed
+relative means relative to its parent position i.e if we position riht by 100 pn then the orignal postition is still there it's like margining.
+where absolute shift complete position.in fixed position element don't cahnge its position and like when u scroll element will stay there always.
+*/
+body {
+  margin: 0;
+  text-align: center;
+}
+.red {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  /* display: inline-block;
+  position: relative;
+  right: 100px; */
+  position: absolute;
+  left: 200px;
+  top: 200px;
+
+}
+.blue {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  /* display: inline-block;
+  position: relative;
+  right: 100px; */
+  position: absolute;
+  left: 100px;
+  top:100px;
+
+}
+.yellow {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+
+  /* display: inline-block;
+  position: relative;
+  left: 200px; */
+  position: absolute;
+  #right:100px;
+
+}
