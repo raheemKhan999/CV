@@ -1,0 +1,21 @@
+/************************************** TAG Selectors***********/
+h1 {
+  color: red;font-size: 200px;
+}
+img:hover{
+  background: gold;
+}
+/************************************** Class Selectors***********/
+.bacon{
+  background: red;
+}
+.circle {
+  border-radius: 100%;
+}
+.boroccli{
+  background: green;
+}
+/************************************** Id Selectors***********/
+#heading {
+  color: blue;
+}
